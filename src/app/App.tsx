@@ -21,7 +21,7 @@ const App: React.FunctionComponent = () => {
   //Initialize the client
   React.useEffect(() => {
     const init = async () => {
-      keycloak = await getKeycloakInstance();
+      // keycloak = await getKeycloakInstance();
       setInitialized(true);
     };
     init();
